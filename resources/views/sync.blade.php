@@ -23,7 +23,6 @@
                     <form method="POST" action="{{ route('sync') }}"
                         class="bg-white p-6 rounded-lg shadow-md w-full max-w-sm">
                         @csrf
-                        <!-- Category Dropdown -->
                         <div class="mb-4">
                             <label for="category" class="block text-sm font-medium text-gray-700 mb-1">Category</label>
                             <select name="category" id="category"
@@ -90,14 +89,8 @@
                             </button>
                         </div>
                     </form>
-
-
                 </div>
-
             </div>
-
-
         </div>
-
     </div>
 </x-app-layout>
