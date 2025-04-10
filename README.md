@@ -16,6 +16,8 @@ cd webappclouds
 composer install
 cp .env.example .env
 php artisan key:generate
+php artisan db:migrate
+php artisan db:seed
 
 ```
 
